@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Component } from "react";
 import axios from "axios";
-const API_KEY = "h_PBaEIqECJm_gSEZty4SQ2Jc6J2kMX8u187SKhH6P4";
+const API_KEY = "YOUR_API_KEY";
 const count = 1;
 function LoadImages(){
     const [state, setState] = useState([])
