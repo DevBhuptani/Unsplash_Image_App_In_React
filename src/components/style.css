@@ -19,6 +19,10 @@ html {
   font-size: 100%;
 }
 
+.inputStyle {
+  border-radius: 30px;
+}
+
 .search {
   background: var(--color);
   color: var(--white-color);
@@ -43,4 +47,15 @@ html {
 
 .search:focus {
   outline: none;
+}
+
+.img {
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

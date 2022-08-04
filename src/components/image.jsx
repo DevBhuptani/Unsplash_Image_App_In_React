@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap';
 class Test extends React.Component {
     render(){
         return (
-            <Image src={this.props.src} alt="Images" className="p-2"/>
+            <Image src={this.props.src} alt="Images" className="img p-2"/>
         );
     }
 }
