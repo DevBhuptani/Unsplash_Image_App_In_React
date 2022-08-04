@@ -1,10 +1,9 @@
 import { Input } from "antd";
-import React, { useState, useEffect, Component } from "react";
+import React, { useState } from "react";
 import { Button, Container } from "react-bootstrap";
 import "./App.css";
 import { LoadImages, SearchImages } from "./components/api";
 import Image from "./components/image";
-import SearchQuery from "./components/search";
 import "./components/style.css";
 
 function App() {
@@ -48,7 +47,9 @@ function App() {
           ? searchData.map((img, key) => (
               <Image src={img.urls.regular} key={key} className="image" />
             ))
-          : data.map((img, key) => <Image src={img.urls.regular} key={key} className="image"/>)}
+          : data.map((img, key) => (
+              <Image src={img.urls.regular} key={key} className="image" />
+            ))}
       </div>
     </Container>
   );
