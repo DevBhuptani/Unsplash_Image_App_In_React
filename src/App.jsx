@@ -20,6 +20,7 @@ function App() {
   const reset = () => {
     setSearchQ("");
   };
+  
   return (
     <Container className="py-5">
       <h1 className="text-center pb-2 ">Image Search App 📸</h1>
