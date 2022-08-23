@@ -36,7 +36,7 @@ function App() {
             Search
           </Button>
         </div>
-        <div onClick={reset} className="text-center">
+        <div onClick={reset} className="text-center reset">
           {searchQ && "Reset"}
         </div>
       </div>
