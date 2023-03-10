@@ -52,7 +52,6 @@ function App() {
               <Image src={img.urls.regular} key={key} className="image" />
             ))}
       </div>
-      
     </Container>
   );
 }
