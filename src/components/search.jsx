@@ -1,4 +1,3 @@
-import { Input } from "antd";
 import React, { useState } from "react";
 
 function SearchQuery(props) {
@@ -9,7 +8,7 @@ function SearchQuery(props) {
   return (
     <>
       <p onClick={search}>Click</p>
-      <Input
+      <input
         className="inputStyle"
         type="text"
         onChange={(e) => setQuery1(e.target.value)}

@@ -1,4 +1,3 @@
-import { Input } from "antd";
 import React, { useState } from "react";
 import { Button, Container } from "react-bootstrap";
 import "./App.css";
@@ -26,7 +25,7 @@ function App() {
       <h1 className="text-center pb-2 ">Image Search App 📸</h1>
       <div className="pb-5">
         <div className="text-center">
-          <Input
+          <input
             className="inputStyle col-6 py-2"
             type="text"
             onChange={(e) => setQuery(e.target.value)}
