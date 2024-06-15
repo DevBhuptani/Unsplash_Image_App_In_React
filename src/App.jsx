@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import axios from 'axios';
 import './App.css';
-import Image from './components/image';
 import './components/style.css';
 import { useDebouncedEffect } from './hooks/useDebouncedEffect';
 
@@ -55,7 +54,7 @@ const App = () => {
       )}
       <div className="contain">
         {displayedImages.map((img, key) => (
-          <Image src={img.urls.regular} key={key} className="image" />
+          <img src={img.urls.regular} key={key} className="image" />
         ))}
       </div>
     </Container>

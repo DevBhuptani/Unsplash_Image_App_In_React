@@ -54,7 +54,7 @@ html {
   max-width: 500px;
 }
 
-.reset{
+.reset {
   cursor: pointer;
   letter-spacing: 0.1em;
   line-height: 1.5;
@@ -65,4 +65,10 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.image {
+  min-width: 200px;
+  max-width: 500px;
+  padding: .5rem !important;
 }
